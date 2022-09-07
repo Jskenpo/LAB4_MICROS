@@ -3,4 +3,4 @@ Laboratorio 4 parte 2 | Programación de Microprocesadores | Universidad del Val
 Integrantes:
 * Jose Pablo Santisteban   | 
 * Javier Alejandro Azurdia | 21242
-* Sebastian Solorzano      | 
+* Sebastian Solorzano      | 21826
