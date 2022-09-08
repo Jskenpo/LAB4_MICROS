@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/jsken/OneDrive/Escritorio/UVG/MICROS/LAB4_parte2/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/jsken/OneDrive/Escritorio/UVG/MICROS/LAB4_MICROS/LAB4_parte2/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target LAB4_parte2
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/jsken/OneDrive/Escritorio/UVG/MICROS/LAB4_parte2
 
 build cmake_object_order_depends_target_LAB4_parte2: phony || CMakeFiles/LAB4_parte2.dir
 
-build CMakeFiles/LAB4_parte2.dir/main.cpp.obj: CXX_COMPILER__LAB4_parte2_Debug C$:/Users/jsken/OneDrive/Escritorio/UVG/MICROS/LAB4_parte2/main.cpp || cmake_object_order_depends_target_LAB4_parte2
+build CMakeFiles/LAB4_parte2.dir/main.cpp.obj: CXX_COMPILER__LAB4_parte2_Debug C$:/Users/jsken/OneDrive/Escritorio/UVG/MICROS/LAB4_MICROS/LAB4_parte2/main.cpp || cmake_object_order_depends_target_LAB4_parte2
   DEP_FILE = CMakeFiles\LAB4_parte2.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\LAB4_parte2.dir
@@ -81,7 +81,7 @@ build LAB4_parte2.exe: CXX_EXECUTABLE_LINKER__LAB4_parte2_Debug CMakeFiles/LAB4_
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_parte2\cmake-build-debug && C:\Users\jsken\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_MICROS\LAB4_parte2\cmake-build-debug && C:\Users\jsken\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_parte2\cmake-build-debug && C:\Users\jsken\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_parte2 -BC:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_parte2\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_MICROS\LAB4_parte2\cmake-build-debug && C:\Users\jsken\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_MICROS\LAB4_parte2 -BC:\Users\jsken\OneDrive\Escritorio\UVG\MICROS\LAB4_MICROS\LAB4_parte2\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build LAB4_parte2: phony LAB4_parte2.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/jsken/OneDrive/Escritorio/UVG/MICROS/LAB4_parte2/cmake-build-debug
+# Folder: C:/Users/jsken/OneDrive/Escritorio/UVG/MICROS/LAB4_MICROS/LAB4_parte2/cmake-build-debug
 
 build all: phony LAB4_parte2.exe
 

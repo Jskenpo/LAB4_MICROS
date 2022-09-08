@@ -1,4 +1,15 @@
 // imports
+/**
+ * Universidad del Valle de Guatemala
+ * Laboratorio 4 parte 2
+ * Programa realizado el 06/09/2022
+ * Integrantes:
+ * Jose Santisteban - 21153
+ * Alejandro Azurdia - 21242
+ * Sebastán Solorzano - 21826
+ */
+
+
 #include <cstdio>
 #include <cstdlib>
 #include <pthread.h>
@@ -117,7 +128,7 @@ void *calcularAgosto(void *contador) { // Realiza la misma ejecución que el mé
 
     int *input = (int *)contador;
     int numhilo = *input;
-    int numhilo2 = numhilo - 8;
+    int numhilo2 = numhilo - 8; // se reinicia el contador a 0 por orden de los arreglos bidimensionales
 
     printf("Hilo %d ha empezado su ejecucion\n", (int)numhilo2);
 
@@ -167,8 +178,11 @@ int main() {
     }
 
     for (int i = 0;i<8;i++){
-        pthread_join(threadid, NULL); // Se ejecutan los hilos de Julio.
+        pthread_join(threadid, NULL); // Se espera a que se termina la ejecución de los hilos.
     }
+
+    // se realizan los calculos correspondientes para obtener los totales de ventas y utilidad como se indica en la tarea.
+    // se accede a los resultados por medio de uso de los arreglos bidimensionales globales.
     printf("---------------------------JULIO---------------------------\n");
     //calcular las ventas totales de julio
     float ventasTotalesJulio = 0.0;
