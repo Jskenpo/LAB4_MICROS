@@ -4,3 +4,5 @@ Integrantes:
 * Jose Pablo Santisteban   | 
 * Javier Alejandro Azurdia | 21242
 * Sebastian Solorzano      | 21826
+
+Video: https://youtu.be/KmBNgGUj92I
